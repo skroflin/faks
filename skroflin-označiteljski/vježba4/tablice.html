@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<!-- ZAGLAVLJE -->
+
+<head>
+<title>Tablice u HTML-u</title>
+<style>
+    table, th, td 
+    {
+      border: 2px solid green;
+      border-collapse: no;
+    }
+</style>
+</head>
+
+<!-- TIJELO DOKUMENTA -->
+
+<body>
+<h3>Kreiranje tablica u HTML-u</h3>
+<p>&nbsp;</p>
+    <table style="width:70%; height:150px;">
+        <tr>
+          <th>Ime</th>
+          <th>Prezime</th>
+          <th>Grad</th>
+        </tr>
+        <tr>
+          <td style="text-align: center;">Boris</td>
+          <td>Bosančić</td>
+          <td>Osijek</td>
+        </tr>
+        <tr>
+          <td>Vaše ime</td>
+          <td>Vaše prezime</td>
+          <td style="text-align: right;">Vaš grad</td>
+        </tr>
+      </table>
+      <p></p>
+      <table style="width:320px;height:70%px;">
+        <tr>
+          <th>Ime</th>
+          <th>Prezime</th>
+          <th>Grad</th>
+        </tr>
+        <tr>
+          <td style="text-align:center;" colspan="2">Boris Bosančić</td>
+          
+          <td>Osijek</td>
+        </tr>
+        <tr>
+          <td>Vaše ime</td>
+          <td style="background-color:yellow;">Vaše prezime</td>
+          <td style="text-align:right;">Vaš grad</td>
+        </tr>
+      </table> 
+
+</body>
+
+</html>
+
