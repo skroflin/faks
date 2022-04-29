@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "catalog.dtd">
+<catalog>
+    <book>
+        <title>
+            Odiseja u svemiru 2001.
+        </title>
+
+        <author>
+            Arthur C. Clarke
+        </author>
+
+        <category>
+            Fantasy
+        </category>
+
+        <rating>
+            5
+        </rating>
+    </book>
+
+    <book>
+        <title>
+            Das Kapital
+        </title>
+
+        <author>
+            Karl Marx
+        </author>
+
+        <category>
+            Philosophy
+        </category>
+        
+        <rating>
+            1
+        </rating>
+    </book>
+
+    <book>
+        <title>
+            The Plague
+        </title>
+
+        <author>
+            Albert Camus
+        </author>
+
+        <category>
+            Novel
+        </category>
+        
+        <rating>
+            5
+        </rating>
+    </book>
+</catalog>
