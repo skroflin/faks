@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE katalog SYSTEM "catalog_kroflin.dtd">
+<katalog>
+    <knjiga>
+        <naslov>Odiseja u svemiru 2001.</naslov>
+        <autor>Arthur C. Clarke</autor>
+        <vrsta žanr="fantasy"/>
+        <ocjena broj="5"/>
+        <čitatelj>Sven Kroflin</čitatelj>
+        <čitatelj>Pero Perić</čitatelj>
+        <objavljena></objavljena>
+        <godina_kataloga>&godina;</godina_kataloga>
+    </knjiga>
+    <knjiga>
+        <naslov>Gospodari Prstenova</naslov>
+        <autor>J. R. R. Tolkien</autor>
+        <vrsta žanr="fantasy"/>
+        <ocjena broj="5"/>
+        <čitatelj>Fran Kroflin</čitatelj>
+        <čitatelj>Ivan Ivić</čitatelj>
+        <godina_kataloga>&godina;</godina_kataloga>
+    </knjiga>
+    <knjiga>
+        <naslov>Harry Potter</naslov>
+        <autor>J. K. Rowling</autor>
+        <vrsta žanr="fantasy"/>
+        <ocjena broj="5"/>
+        <čitatelj>Matej Kroflin</čitatelj>
+        <godina_kataloga>&godina;</godina_kataloga>
+    </knjiga>
+</katalog>

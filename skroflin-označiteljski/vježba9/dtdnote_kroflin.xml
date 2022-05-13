@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE poruka[
+<!ELEMENT poruka (od,za,naslov,tijelo)>
+<!ELEMENT od (#PCDATA)>
+<!ELEMENT za (#PCDATA)>
+<!ELEMENT naslov (#PCDATA)>
+<!ELEMENT tijelo (#PCDATA)>]>
+
+<poruka>
+    <od>Jani</od>
+    <za>Od</za>
+    <naslov>Podjsetnik</naslov>
+    <tijelo>Ne zaboravi me ovaj vikend!</tijelo>
+</poruka>

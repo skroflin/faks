@@ -1,0 +1,12 @@
+<!ELEMENT katalog (knjiga+)>
+<!ELEMENT knjiga (naslov,autor,vrsta,ocjena,čitatelj*,objavljena?,godina_kataloga)>
+<!ELEMENT naslov (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT vrsta (#PCDATA)>
+<!ELEMENT ocjena (#PCDATA)>
+<!ELEMENT čitatelj (#PCDATA)>
+<!ELEMENT objavljena (#PCDATA)>
+<!ELEMENT godina_kataloga (#PCDATA)>
+<!ATTLIST vrsta žanr (fantasy | classic | biography) #REQUIRED>
+<!ATTLIST ocjena broj (1|2|3|4|5) "5">
+<!ENTITY godina "Katalog SK, 2022">

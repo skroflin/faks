@@ -1,0 +1,6 @@
+<!ELEMENT catalog (book+)>
+<!ELEMENT book (title,author,category,rating)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
