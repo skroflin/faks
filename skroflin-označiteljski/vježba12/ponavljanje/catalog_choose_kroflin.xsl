@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/"> 
-<html> <body> <h2>Moja knjiÅ¾nica</h2> 
+<html> <body> <h2>Moja knjižnica</h2> 
 <table border="1"> 
-<tr bgcolor="#9acd32"> 
+<tr bgcolor="green"> 
     <td align="left">Naslov</td> 
     <td align="left">Ime i Prezime</td> 
     <td align="left">Kategorija</td> 
@@ -19,7 +19,7 @@
 <!--<td> <xsl:value-of select="ime_i_prezime"/>  </td> -->
 <xsl:choose> 
 <xsl:when test="ocjena/@broj=5"> 
-<td bgcolor="#ff00ff"> 
+<td bgcolor="darkgreen"> 
 <xsl:value-of select="ime_i_prezime"/> </td> 
 </xsl:when> 
 <xsl:when test="ocjena/@broj=4"> 
