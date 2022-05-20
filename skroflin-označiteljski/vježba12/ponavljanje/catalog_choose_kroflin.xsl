@@ -3,7 +3,7 @@
 <xsl:template match="/"> 
 <html> <body> <h2>Moja knjižnica</h2> 
 <table border="1"> 
-<tr bgcolor="green"> 
+<tr bgcolor="lightgreen"> 
     <td align="left">Naslov</td> 
     <td align="left">Ime i Prezime</td> 
     <td align="left">Kategorija</td> 
