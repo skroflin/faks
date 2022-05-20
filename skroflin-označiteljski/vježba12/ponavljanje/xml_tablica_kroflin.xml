@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<popis_knjiga>
+    <djelo>
+        <naslov>Majstor i Margarita</naslov>
+        <ime_i_prezime>Mikhail Bulgakov</ime_i_prezime>
+        <vrsta naziv="fantasy"/>
+        <ocjena broj="5"/>
+    </djelo>
+    <djelo>
+        <naslov>Moja teorija</naslov>
+        <ime_i_prezime>Albert Einstein</ime_i_prezime>
+        <vrsta naziv="fantasy"/>
+        <ocjena broj="5"/>
+    </djelo>
+    <djelo>
+        <naslov>Stranac</naslov>
+        <ime_i_prezime>Albert Camus</ime_i_prezime>
+        <vrsta naziv="philosophy"/>
+        <ocjena broj="5"/>
+    </djelo>
+</popis_knjiga>
