@@ -27,7 +27,7 @@
 <xsl:value-of select="ime_i_prezime"/> </td> 
 </xsl:when>
 <xsl:when test="ocjena/@broj=3"> 
-<td bgcolor="darkgreen"> 
+<td bgcolor="gray"> 
 <xsl:value-of select="ime_i_prezime"/> </td> 
 </xsl:when>
 <xsl:otherwise>  
