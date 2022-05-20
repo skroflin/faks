@@ -10,12 +10,18 @@
         <naslov>Moja teorija</naslov>
         <ime_i_prezime>Albert Einstein</ime_i_prezime>
         <vrsta naziv="fantasy"/>
-        <ocjena broj="5"/>
+        <ocjena broj="3"/>
     </djelo>
     <djelo>
         <naslov>Stranac</naslov>
         <ime_i_prezime>Albert Camus</ime_i_prezime>
         <vrsta naziv="philosophy"/>
         <ocjena broj="5"/>
+    </djelo>
+    <djelo>
+        <naslov>Kuga</naslov>
+        <ime_i_prezime>Albert Camues</ime_i_prezime>
+        <vrsta naziv="philosophy"/>
+        <ocjena broj="4"/>
     </djelo>
 </popis_knjiga>
