@@ -25,7 +25,11 @@
 <xsl:when test="ocjena/@broj=4"> 
 <td bgcolor="lightgray"> 
 <xsl:value-of select="ime_i_prezime"/> </td> 
-</xsl:when> 
+</xsl:when>
+<xsl:when test="ocjena/@broj=3"> 
+<td bgcolor="darkgreen"> 
+<xsl:value-of select="ime_i_prezime"/> </td> 
+</xsl:when>
 <xsl:otherwise>  
 <td> <xsl:value-of select="ime_i_prezime"/>  </td>
 </xsl:otherwise> 
