@@ -9,7 +9,7 @@
     <djelo>
         <naslov>Moja teorija</naslov>
         <ime_i_prezime>Albert Einstein</ime_i_prezime>
-        <vrsta naziv="fantasy"/>
+        <vrsta naziv="mathematics"/>
         <ocjena broj="3"/>
     </djelo>
     <djelo>
