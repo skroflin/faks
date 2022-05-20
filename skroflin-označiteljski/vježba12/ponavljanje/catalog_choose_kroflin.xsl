@@ -38,7 +38,7 @@
 
 
 
-<td> <xsl:value-of select="vrsta/@naziv"/> </td>
+<td bgcolor="#90EE90"> <xsl:value-of select="vrsta/@naziv"/> </td>
 <td> <xsl:value-of select="ocjena/@broj"/> </td> </tr>
 <!--</xsl:if>-->
  </xsl:for-each> 
