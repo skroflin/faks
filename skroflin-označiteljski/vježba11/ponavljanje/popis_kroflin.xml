@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE popis SYSTEM "popis_kroflin.dtd">
+<popis>
+    <student>
+        <ime>Sven</ime>
+        <prezime>Kroflin</prezime>
+        <odsjek naziv="OZIZ"/>
+        <studij>Informatologija</studij>
+        <godina>Prva</godina>
+        <zaključna_ocjena>3</zaključna_ocjena>
+        <ponavljačka_godina>Ne</ponavljačka_godina>
+    </student>
+    <student>
+        <ime>Stjepan</ime>
+        <prezime>Šokčević</prezime>
+        <odsjek naziv="OZIZ"/>
+        <studij>Informatologija</studij>
+        <godina>Prva</godina>
+        <zaključna_ocjena>4</zaključna_ocjena>
+        <ponavljačka_godina>Da</ponavljačka_godina>
+    </student>
+    <student>
+        <ime>Lara</ime>
+        <prezime>Barišić</prezime>
+        <odsjek naziv="anglistika"/>
+        <studij>Engleski i Njemački</studij>
+        <godina>Prva</godina>
+        <zaključna_ocjena>4</zaključna_ocjena>
+        <ponavljačka_godina>Ne</ponavljačka_godina>
+    </student>
+</popis>

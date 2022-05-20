@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE katalog_knjiga SYSTEM "katalog_bosancic.dtd"
+[
+<!ENTITY god "Katalog Borisa Bosančića, 2021">
+]>
+<katalog_knjiga>
+  <knjiga>
+      <naslov_knjige>Odiseja u svemiru 2001.</naslov_knjige>
+      <autor>Arthur C. Clarke</autor>
+      <žanr naziv="fantasy" />
+      <ocjena broj="5" />
+      <godina>&god;</godina>
+      <čitatelj>Boris</čitatelj>
+      <čitatelj>Lana</čitatelj>
+      <godina_čitanja>2017</godina_čitanja>
+  </knjiga>
+  <knjiga>
+    <naslov_knjige>Majstor i Margarita</naslov_knjige>
+    <autor>Mihail Bulgakov</autor>
+    <žanr naziv="classic" />
+    <ocjena broj="5" />
+    <godina>&god;</godina>
+    <čitatelj>Sven</čitatelj>
+    <godina_čitanja>2016</godina_čitanja>
+  </knjiga>
+</katalog_knjiga>

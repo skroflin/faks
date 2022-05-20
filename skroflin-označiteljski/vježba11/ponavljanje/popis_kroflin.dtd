@@ -1,0 +1,12 @@
+<!ELEMENT popis (student+)>
+<!ELEMENT student (ime, prezime, odsjek, studij, godina, zaključna_ocjena, ponavljačka_godina?)>
+<!ELEMENT ime (#PCDATA)>
+<!ELEMENT prezime (#PCDATA)>
+<!ELEMENT odsjek (#PCDATA)>
+<!ELEMENT studij (#PCDATA)>
+<!ELEMENT godina (#PCDATA)>
+<!ELEMENT zaključna_ocjena (#PCDATA)>
+<!ELEMENT ponavljačka_godina (#PCDATA)>
+<!ATTLIST odsjek naziv (OZIZ|germanistika|anglistika) "OZIZ">
+<!ATTLIST zaključna_ocjena broj (1|2|3|4|5) "3">
+<!ATTLIST ponavljačka godina (da|ne) #REQUIRED>

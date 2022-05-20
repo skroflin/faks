@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<katalog_knjiga>
+  <knjiga>
+      <naslov>Odiseja u svemiru 2001.</naslov>
+      <autor>Arthur C. Clarke</autor>
+      <žanr>znanstvena fantastika</žanr>
+      <ocjena broj="5"/>
+  </knjiga>
+  <knjiga>
+    <naslov>Majstor i Margarita</naslov>
+    <autor>Mihail Bulgakov</autor>
+    <žanr>klasika</žanr>
+    <ocjena broj="5"/>
+</knjiga>
+
+</katalog_knjiga>
