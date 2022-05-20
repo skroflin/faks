@@ -7,22 +7,35 @@
     <td align="left">Naslov</td>
     <td align="left">Autor</td> 
     <td align="left">Kategorija</td>
-    <td align="left">Ocjena</td></tr>
-<xsl:for-each select="catalog/book">
-<tr> <td><xsl:value-of select="naslov"/></td>
+    <td align="left">Ocjena</td>
+</tr>
+<xsl:for-each select="popis_knjiga/djela">
+<xsl:sort select="ime_i_prezime"/>
+<tr>
+<td><xsl:value-of select="naslov"/></td>
 <xsl:choose> 
 <xsl:when test="ocjena/@broj=5">
-<td bgcolor="lightgreen"> 
+<td bgcolor="darkgreen"> 
 <xsl:value-of select="ime_i_prezime"/>
 </td> 
 </xsl:when>
-<xsl:otherwise>  
-<td> <xsl:value-of select="ime_i_prezime"/>
+<xsl:when test="ocjena/@broj=4">
+<td bgcolor="gray">
+<xsl:value-of select="ime_i_prezime"/>
+</td>
+</xsl:when>
+<xsl:otherwise>
+<td>
+<xsl:value-of select="ime_i_prezime"/>
 </td>
 </xsl:otherwise> 
 </xsl:choose>
-<td><xsl:value-of select="vrsta@naziv"/>  </td>
-<td><xsl:value-of select="ocjena@broj"/>  </td>
+<td>
+<xsl:value-of select="vrsta@naziv"/>
+</td>
+<td>
+<xsl:value-of select="ocjena@broj"/>
+</td>
 </tr>
 </xsl:for-each>
 </table> </body> </html> 
