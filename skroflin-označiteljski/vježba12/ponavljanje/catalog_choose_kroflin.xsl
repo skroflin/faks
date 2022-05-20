@@ -30,6 +30,10 @@
 <td bgcolor="gray"> 
 <xsl:value-of select="ime_i_prezime"/> </td> 
 </xsl:when>
+<xsl:when test="vrsta/@naziv=mathematics"> 
+<td bgcolor="#90EE90"> 
+<xsl:value-of select="ime_i_prezime"/> </td> 
+</xsl:when>
 <xsl:otherwise>  
 <td> <xsl:value-of select="ime_i_prezime"/>  </td>
 </xsl:otherwise> 
