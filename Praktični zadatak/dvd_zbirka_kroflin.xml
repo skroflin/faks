@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dvd_katalog SYSTEM "dvd_zbirka_kroflin.dtd">
+<dvd_katalog>
+    <dvd>
+        <red_br>
+            1.
+        </red_br>
+        <izvođač>
+            Bob Dylan
+        </izvođač>
+        <naslov_albuma>
+            Empire Burlesque
+        </naslov_albuma>
+        <vrsta_glazbe žanr="rock"/>
+        <godina_izdanja>1976.</godina_izdanja>
+        <odabrao>&ime;</odabrao>
+    </dvd>
+    <dvd>
+        <red_br>
+            2.
+        </red_br>
+        <izvođač>
+            Diana Ross    
+        </izvođač>
+        <naslov_albuma>
+            The Definitive Collection
+        </naslov_albuma>
+        <vrsta_glazbe žanr="pop"/>
+        <godina_izdanja>1994.</godina_izdanja>
+        <odabrao>&ime;</odabrao>
+    </dvd>
+    <dvd>
+        <red_br>
+            3.
+        </red_br>
+        <izvođač>
+            Kanye West   
+        </izvođač>
+        <naslov_albuma>
+            Donda 2
+        </naslov_albuma>
+        <vrsta_glazbe žanr="rap"/>
+        <godina_izdanja>2022.</godina_izdanja>
+        <odabrao>&ime;</odabrao>
+    </dvd>
+    <dvd>
+        <red_br>
+            4.
+        </red_br>
+        <izvođač>
+            Gorillaz    
+        </izvođač>
+        <naslov_albuma>
+            Demon Days
+        </naslov_albuma>
+        <vrsta_glazbe žanr="alternative"/>
+        <godina_izdanja>2005.</godina_izdanja>
+        <odabrao>&ime;</odabrao>
+    </dvd>
+    <dvd>
+        <red_br>
+            5.
+        </red_br>
+        <izvođač>
+            Joji   
+        </izvođač>
+        <naslov_albuma>
+            Nectar
+        </naslov_albuma>
+        <vrsta_glazbe žanr="RnB"/>
+        <godina_izdanja>2020.</godina_izdanja>
+        <odabrao>&ime;</odabrao>
+    </dvd>
+    <dvd>
+        <red_br>
+            6.
+        </red_br>
+        <izvođač>
+            Joji
+        </izvođač>
+        <naslov_albuma>
+            Ballads 1
+        </naslov_albuma>
+        <vrsta_glazbe žanr="RnB"/>
+        <godina_izdanja>2018.</godina_izdanja>
+        <odabrao>&ime;</odabrao>
+    </dvd>
+    <dvd>
+        <red_br>
+            7.
+        </red_br>
+        <izvođač>
+            Childish Gambino
+        </izvođač>
+        <naslov_albuma>
+            Illin-Noise!
+        </naslov_albuma>
+        <vrsta_glazbe žanr="rap"/>
+        <godina_izdanja>2005.</godina_izdanja>
+        <odabrao>&ime;</odabrao>
+    </dvd>
+</dvd_katalog>

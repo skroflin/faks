@@ -1,0 +1,10 @@
+<!ELEMENT dvd_katalog (dvd+)>
+<!ELEMENT dvd (red_br,izvođač+,naslov_albuma,vrsta_glazbe?,godina_izdanja*,odabrao)>
+<!ELEMENT red_br (#PCDATA)>
+<!ELEMENT izvođač (#PCDATA)>
+<!ELEMENT naslov_albuma (#PCDATA)>
+<!ELEMENT vrsta_glazbe EMPTY>
+<!ELEMENT godina_izdanja (#PCDATA)>
+<!ELEMENT odabrao (#PCDATA)>
+<!ATTLIST vrsta_glazbe žanr (rock|pop|rap|alternative|RnB) #REQUIRED>
+<!ENTITY ime "Sven Kroflin">
