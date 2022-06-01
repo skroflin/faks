@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE korisnik_knjižnice SYSTEM "zadatakXML_kroflin.dtd">
+<korisnik_knjižnice>
+    <korisnik>
+        <ime_prezime>
+            Mirjana Merdar
+        </ime_prezime>
+        <ulica>
+            Kapucinska 5
+        </ulica>
+        <mjesto_prebivališta grad="Osijek"/>
+        <datum_rođenja>20. travnja 1996.</datum_rođenja>
+        <zanimanje>dipl ing. strojarstva</zanimanje>
+        <tekst>&tekst;</tekst>
+    </korisnik>
+    <korisnik>
+        <ime_prezime>
+            Augustin Trepšić
+        </ime_prezime>
+        <ulica>
+            Županijska 20
+        </ulica>
+        <mjesto_prebivališta grad="Vinkovci"/>
+        <datum_rođenja>7. srpnja 1998.</datum_rođenja>
+        <zanimanje>medicinski tehničar</zanimanje>
+        <tekst>&tekst;</tekst>
+    </korisnik>
+    <korisnik>
+        <ime_prezime>
+            Žozefina Lukšić
+        </ime_prezime>
+        <ulica>
+            Vukovarska 10
+        </ulica>
+        <mjesto_prebivališta grad="Osijek"/>
+        <datum_rođenja>25. rujna 1998.</datum_rođenja>
+        <zanimanje>prof hrvatskog jezika</zanimanje>
+        <tekst>&tekst;</tekst>
+    </korisnik>
+    <korisnik>
+        <ime_prezime>
+            Ilko Strlec
+        </ime_prezime>
+        <ulica>
+            Vukovarska 50
+        </ulica>
+        <mjesto_prebivališta grad="Valpovo"/>
+        <datum_rođenja>1. prosinca 1996.</datum_rođenja>
+        <zanimanje>zemljomjer</zanimanje>
+        <tekst>&tekst;</tekst>
+    </korisnik>
+</korisnik_knjižnice>
