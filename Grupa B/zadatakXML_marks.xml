@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE studenti SYSTEM "zadatakDTD_marks">
+<studenti>
+    <podaci_o_studentu>
+        <redni_broj>
+            1.
+        </redni_broj>
+        <ime_i_prezime_studenta>
+            <ime>Iva</ime>
+            <prezime>Ivić</prezime>
+        </ime_i_prezime_studenta>
+        <smjer_studija>
+            informatologija
+        </smjer_studija>
+        <akademska_godina_upisa>
+            2014/15
+        </akademska_godina_upisa>
+        <prosjecna_ocjena ocjena="izvrstan"/>
+        <tekst>&tekst;</tekst>
+    </podaci_o_studentu>
+    <podaci_o_studentu>
+        <redni_broj>
+            2.
+        </redni_broj>
+        <ime_i_prezime_studenta>
+            <ime>Hrvoje</ime>
+            <prezime>Horvat</prezime>
+        </ime_i_prezime_studenta>
+        <smjer_studija>
+            filozofija
+        </smjer_studija>
+        <akademska_godina_upisa>
+            2013/14
+        </akademska_godina_upisa>
+        <prosjecna_ocjena ocjena="vrlodobar"/>
+        <tekst>&tekst;</tekst>
+    </podaci_o_studentu>
+    <podaci_o_studentu>
+        <redni_broj>
+            3.
+        </redni_broj>
+        <ime_i_prezime_studenta>
+            <ime>Petra</ime>
+            <prezime>Petrović</prezime>
+        </ime_i_prezime_studenta>
+        <smjer_studija>
+            psihologija
+        </smjer_studija>
+        <akademska_godina_upisa>
+            2013/14
+        </akademska_godina_upisa>
+        <prosjecna_ocjena ocjena="vrlodobar"/>
+        <tekst>&tekst;</tekst>
+    </podaci_o_studentu>
+    <podaci_o_studentu>
+        <redni_broj>
+            4.
+        </redni_broj>
+        <ime_i_prezime_studenta>
+            <ime>Marko</ime>
+            <prezime>Marković</prezime>
+        </ime_i_prezime_studenta>
+        <smjer_studija>
+            informatologija
+        </smjer_studija>
+        <akademska_godina_upisa>
+            2014/15
+        </akademska_godina_upisa>
+        <prosjecna_ocjena ocjena="izvrstan">
+        <tekst>&tekst;</tekst>
+    </podaci_o_studentu>
+</studenti>

@@ -1,0 +1,11 @@
+<!ELEMENT studenti (podaci_o_studentu+)>
+<!ELEMENT podaci_o_studentu (redni_broj,ime_i_prezime_studenta,ime,prezime*,smjer_studija,akademska_godina_upisa*,prosjecna_ocjena*,tekst)>
+<!ELEMENT redni_broj (#PCDATA)>
+<!ELEMENT ime_i_prezime_studenta (#PCDATA)>
+<!ELEMENT ime (#PCDATA) #REQUIRED>
+<!ELEMENT prezime (#PCDATA)>
+<!ELEMENT smjer_studija (#PCDATA)>
+<!ELEMENT akademska_godina_upisa (#PCDATA)>
+<!ELEMENT prosjecna_ocjena (#PCDATA)>
+<!ATTLIST prosjecna_ocjena ocjena (dovoljan|dobar|vrlodobar|izvrstan)>
+<!ENTITY tekst "Filozofski fakultet u Osijeku">

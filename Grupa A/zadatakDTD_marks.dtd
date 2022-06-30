@@ -1,0 +1,12 @@
+<!ELEMENT korisnik_knjižnice (korisnik+)>
+<!ELEMENT korisnik (ime_i_prezime,ulica,mjesto_prebivališta,datum_rođenja,dan*,datum,zanimanje?,tekst)>
+<!ELEMENT ime_i_prezime (#PCDATA)>
+<!ELEMENT ulica (#PCDATA)>
+<!ELEMENT mjesto_prebivališta EMPTY>
+<!ATTLIST mjesto_prebivališta grad (Osijek|Vinkovci|Valpovo) "Osijek">
+<!ELEMENT datum_rođenja (#PCDATA)>
+<!ELEMENT dan (#PCDATA)>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT zanimanje (#PCDATA)>
+<!ELEMENT tekst (#PCDATA)>
+<!ENTITY tekst "Popis korisnika knjižnice">

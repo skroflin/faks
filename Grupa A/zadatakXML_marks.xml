@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE korisnik_knjižnice SYSTEM "zadatakDTD_marks">
+<korisnik_knjižnice>
+    <korisnik>
+        <ime_i_prezime>
+            Mirjana Merdar
+        </ime_i_prezime>
+        <ulica>
+            Kapucinska 5
+        </ulica>
+        <mjesto_prebivališta grad="Osijek"/>
+        <datum_rođenja>
+            <dan>20.</dan>
+            <datum>travanj 1996.</datum>
+        </datum_rođenja>
+        <zanimanje>dipl. ing. strojarstva</zanimanje>
+        <tekst>&tekst;</tekst>
+    </korisnik>
+    <korisnik>
+        <ime_i_prezime>
+            Augustin Trepšić
+        </ime_i_prezime>
+        <ulica>
+            Županijska 20
+        </ulica>
+        <mjesto_prebivališta grad="Vinkovci"/>
+        <datum_rođenja>
+            <dan>7.</dan>
+            <datum>srpnja 1998.</datum>
+        </datum_rođenja>
+        <zanimanje>medicinski tehničar</zanimanje>
+        <tekst>&tekst;</tekst>
+    </korisnik>
+    <korisnik>
+        <ime_i_prezime>
+            Žozefina Lukšić
+        </ime_i_prezime>
+        <ulica>
+            Vukovarska 10
+        </ulica>
+        <mjesto_prebivališta grad="Osijek"/>
+        <datum_rođenja>
+            <dan>25.</dan>
+            <datum>rujna 1998.</datum>
+        </datum_rođenja>
+        <zanimanje>prof. hrvatskog jezika</zanimanje>
+        <tekst>&tekst;</tekst>
+    </korisnik>
+    <korisnik>
+        <ime_i_prezime>
+            Ilko Strlec
+        </ime_i_prezime>
+        <ulica>
+            Vukovarska 50
+        </ulica>
+        <mjesto_prebivališta grad="Valpovo"/>
+        <datum_rođenja>
+            <dan>1.</dan>
+            <datum>prosinca 1996.</datum>
+        </datum_rođenja>
+        <tekst>&tekst;</tekst>
+    </korisnik>
+</korisnik_knjižnice>
